@@ -109,9 +109,14 @@ names(vector) = ("name1", "name2")
 where(vector == "name")
 
 <data frame>
+#initialize new dataframe                        
+new_df = data.frame(matrix(nrow=3, ncol=4))                        
+new_df = data.frame(matrix(0, nrow=3, ncol=4))   
+                        
 #data frame indexing
 dataframe[] #data frame
 dataframe[[]] #vector
+                       
 
 #Explore data frame
 head( dataframe )
